@@ -4,7 +4,7 @@ vendor/firmware/bcm4358A3_V0062.0104.hcd
 ### GPS
 bin/gpsd
 lib/libwrappergps.so
-lib/hw/gps.universal5433.so
+lib/hw/gps.default.so:lib/hw/gps.universal5433.so
 
 ### Mobicore
 app/FFFFFFFF000000000000000000000001.drbin
