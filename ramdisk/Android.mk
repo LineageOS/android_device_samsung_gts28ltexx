@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter gts28lte, $(TARGET_DEVICE)),)
+ifneq ($(filter gts28lte gts28ltexx, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE		:= init.baseband.rc

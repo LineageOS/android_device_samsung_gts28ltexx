@@ -1,4 +1,4 @@
-LOCAL_PATH := device/samsung/gts28lte
+LOCAL_PATH := device/samsung/gts28ltexx
 
 ###########################################################
 ### FLAT DEVICE TREE
@@ -29,4 +29,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/samsung/gts28lte/gts28lte-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/gts28ltexx/gts28ltexx-vendor.mk)
