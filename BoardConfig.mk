@@ -1,7 +1,7 @@
 LOCAL_PATH := device/samsung/gts28ltexx
 
-# Extracted with libbootimg
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/gts28ltexx/dtb.img
+# Include path
+TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Kernel
 TARGET_KERNEL_CONFIG := cm_exynos5433-gts28lte_defconfig
