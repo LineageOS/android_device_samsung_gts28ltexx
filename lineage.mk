@@ -10,7 +10,7 @@ $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 $(call inherit-product, vendor/cm/config/telephony.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_gts28ltexx
+PRODUCT_NAME := lineage_gts28ltexx
 PRODUCT_DEVICE := gts28ltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T815
