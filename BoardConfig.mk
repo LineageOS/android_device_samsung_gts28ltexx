@@ -16,5 +16,8 @@ BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
 # Recovery
 TARGET_OTA_ASSERT_DEVICE := gts28lte,gts28ltexx
 
+# SELinux
+BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
+
 # Inherit common board flags
 include device/samsung/gts2-common/BoardConfigCommon.mk
