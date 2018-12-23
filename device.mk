@@ -1,3 +1,4 @@
+DEVICE_PACKAGE_OVERLAYS += device/samsung/gts28ltexx/overlay
 LOCAL_PATH := device/samsung/gts28ltexx
 
 ###########################################################
